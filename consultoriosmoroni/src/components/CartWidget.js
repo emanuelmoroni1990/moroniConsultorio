@@ -1,15 +1,12 @@
 import React from 'react'
+import logoImg from '../img/logo.png'
+import 'bootstrap/dist/css/bootstrap.css';
 
 function BarraNavegacionBrand () {
   return (
-    <nav class="navbar bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-            <img src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
-            Bootstrap</img>
-            </a>
-        </div>
-    </nav>
+    <a class="navbar-brand">
+      <img src={logoImg} alt="" width="50" height="40"></img>
+    </a>
   )
 }
 
