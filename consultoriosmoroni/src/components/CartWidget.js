@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 function BarraNavegacionBrand () {
   return (
-    <a class="navbar-brand">
+    <a className="navbar-brand">
       <img src={logoImg} alt="" width="50" height="40"></img>
     </a>
   )
